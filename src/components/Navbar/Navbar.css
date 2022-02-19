@@ -1,0 +1,10 @@
+.Navbar_container {
+  background-color: #005f73;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar_container h1 {
+  margin-left: 1rem;
+}

@@ -1,0 +1,54 @@
+.Hero_container {
+  background-color: #94d2bd;
+  min-height: 100vh;
+  height: 100vh;
+  overflow-y: auto;
+}
+.loading {
+  background-color: #0a9396;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.HeroSection_images_wrapper {
+  background-color: #94d2bd;
+  padding-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.HeroSection_images_card_wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.heroSection_loadMore-button_wrapper {
+  /* background-color: red; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+.heroSection_loadMore-button_wrapper button {
+  height: 3rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  margin: auto;
+  border: 1px solid #0a9396;
+  border-radius: 10px;
+  background-color: #94d2bd;
+}
+.heroSection_loadMore-button_wrapper button:hover {
+  height: 3rem;
+  width: 20rem;
+  font-size: 1.2rem;
+  margin: auto;
+  border: 1px solid #94d2bd;
+  border-radius: 10px;
+  color: white;
+  background-color: #005f73;
+}

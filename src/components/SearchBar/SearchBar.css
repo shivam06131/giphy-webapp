@@ -1,0 +1,49 @@
+.SearchBar_container {
+  display: flex;
+  /* background-color: #0a9396; */
+  height: 10rem;
+  justify-content: center;
+  align-items: center;
+  /* border-bottom: 2px solid black; */
+  background: -moz-radial-gradient(
+    ellipse at 51% 50%,
+    rgba(0, 95, 115, 1) 1%,
+    rgba(148, 210, 189, 1) 85%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-radial-gradient(
+    ellipse at 51% 50%,
+    rgba(0, 95, 115, 1) 1%,
+    rgba(148, 210, 189, 1) 85%
+  );
+
+  /* opera 11.10+ */
+  background: -o-radial-gradient(
+    ellipse at 51% 50%,
+    rgba(0, 95, 115, 1) 1%,
+    rgba(148, 210, 189, 1) 85%
+  );
+
+  /* ie 10+ */
+  background: -ms-radial-gradient(
+    ellipse at 51% 50%,
+    rgba(0, 95, 115, 1) 1%,
+    rgba(148, 210, 189, 1) 85%
+  );
+
+  /* global 92%+ browsers support */
+  background: radial-gradient(
+    ellipse at 51% 50%,
+    rgba(0, 95, 115, 1) 1%,
+    rgba(148, 210, 189, 1) 85%
+  );
+}
+.SearchBar_container input {
+  height: 3rem;
+  width: 30vw;
+  border-radius: 5px;
+  border: 2px solid #005f73;
+  outline: none;
+  padding: 0.3rem 1rem;
+}
