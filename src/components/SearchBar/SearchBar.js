@@ -1,6 +1,9 @@
 import React, { useEffect, useMemo, useState } from "react";
 import { useDispatch } from "react-redux";
-import { getSearchItems } from "../../redux/actions.js/giff_actions";
+import {
+  getSearchItems,
+  freshSearch,
+} from "../../redux/actions.js/giff_actions";
 import "./SearchBar.css";
 import debounce from "lodash.debounce";
 
@@ -33,7 +36,7 @@ const SearchBar = ({ getInputData, getLoading }) => {
   const handleChange = (e) => {
     getLoading(true);
     getInputData(e.target.value);
-    dispatch(getSearchItems(e.target.value));
+    dispatch(freshSearch(e.target.value));
   };
 
   //TODO :- Debounce function

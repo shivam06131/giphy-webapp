@@ -2,7 +2,7 @@
   background-color: #94d2bd;
   min-height: 100vh;
   height: 100vh;
-  overflow-y: auto;
+  /* overflow-y: auto; */
 }
 .loading {
   background-color: #0a9396;
@@ -27,8 +27,8 @@
 }
 
 .heroSection_loadMore-button_wrapper {
-  /* background-color: red; */
-  width: 100vw;
+  background-color: #94d2bd;
+  /* width: 100vw; */
   display: flex;
   justify-content: center;
   padding: 2rem;
